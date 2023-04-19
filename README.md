@@ -20,5 +20,13 @@ The challenge is to create an efficient system that curbs the threat of Malware 
 ## Assesment
 The quality of your forecasts will be evaluated by calculating the F1 score, given by: 2*Precision*Recall/(Precision+Recall).
 
+## Strategy
+We implemented a NN as solution to the problem. 
+
 ## Results
-53 / 62 :(
+The NN performed good but poor. We got a F1 of 0.83378 placing 53 / 62 :(
+
+## Improvements
+We can implement the solution by working on the data first by selecting only some features or using the PCA technique. Regarding the model, we might try to implement an SVM. 
+
+
